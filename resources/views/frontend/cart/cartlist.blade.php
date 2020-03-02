@@ -1,0 +1,1 @@
+{{\DB::table('carts')->where('carts.id_buy', Auth::user())->id_cart}}
